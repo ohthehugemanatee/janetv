@@ -1,0 +1,12 @@
+; $Id: ipaper.info,v 1.1.2.5 2009/01/15 00:34:29 rares Exp $
+name = iPaper
+description = Embed and publish iPaper documents through your Drupal site.
+dependencies[] = upload
+core = "6.x"
+php = 5.0
+; Information added by drupal.org packaging script on 2009-03-18
+version = "6.x-1.0-rc8"
+core = "6.x"
+project = "ipaper"
+datestamp = "1237357231"
+

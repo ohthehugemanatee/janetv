@@ -1,0 +1,72 @@
+/*
+Original design: andreas04 (v2.0 - Apr 24, 2008) - A free xhtml/css website template by Andreas Viklund.
+For more information, see http://andreasviklund.com/templates/andreas04/
+*/
+
+/* General layouts */
+body {margin:0; padding:0; font:76% tahoma,verdana,sans-serif; background:#e6e6e6 url(images/bodybg.png) repeat-x; color:#444; text-align:center}
+#wrapper {width:92%; min-width:700px; padding:0 20px; margin:0 auto; background:#f0f0f0 url(images/contentbg.png) repeat-x; text-align:left; border-left:1px solid #eef; border-right:1px solid #eef}
+#wrapper800 {width:700px; padding:0 20px; margin:0 auto; background:#f0f0f0 url(images/contentbg.png) repeat-x; text-align:left; border-left:1px solid #eef; border-right:1px solid #eef}
+#wrapper1024 {width:920px; padding:0 20px; margin:0 auto; background:#f0f0f0 url(images/contentbg.png) repeat-x; text-align:left; border-left:1px solid #eef; border-right:1px solid #eef}
+
+/* Tags */
+a {text-decoration:none; color:#269; font-weight:bold}
+a:hover {text-decoration:underline}
+p {margin:0 0 15px 0}
+h1,h2,h3,h4 {margin:0; padding:0; font-weight:normal; line-height:1.2em}
+h1 {font-size:3em; letter-spacing:-2px; color:#567; margin:15px 0 5px 20px}
+h1 a:hover {text-decoration:none}
+h2 {font-size:1.6em; letter-spacing:-1px; margin:-10px 0 0 30px; color:#888}
+h3 {color: #555; font-size:1.4em; margin:1em 0 0.5em 0.5em}
+h4 {font-size:1.2em; font-weight:bold}
+
+/* Header */
+#header {float:left; height:100px; background:url(images/globe.gif) no-repeat; width: 42%; color: #333}
+#header a {color:#567; font-weight:normal}
+#header a:hover {color:#269}
+#header p {padding:0; font-weight:normal; line-height:1.2em;font-size:1.6em; letter-spacing:-1px; margin:-10px 0 0 30px; color:#888}
+#header #logo{margin:2em;;float:left}
+
+#nav {height:71px; padding-top:35px; text-align: right}
+#nav a {margin:0; height:100px; padding:35px 6px 41px 6px; font-size:1.6em; font-weight:normal; letter-spacing:-1px; color:#888}
+#nav a:hover{color:#269; text-decoration:none; background: #fff url(images/menuhover.png) repeat-x; padding:35px 5px 41px 5px; border-left: 1px solid #eee; border-right: 1px solid #eee}
+#nav a.active{color:#269}
+#nav a.active:hover{color:#888; padding:35px 6px 41px 6px;  text-decoration:none; background: none; border:0}
+
+/* Footer */
+#footer {clear:both; padding:10px 0 12px 24px; text-align:left; color:#777}
+#footer a {color:#777; font-weight:normal}
+#footer h2 {color:#aaa; font-size:2em; letter-spacing:-1px; margin:0; padding:0; border:0}
+#footer h2 a {color:#aaa}
+#footer p {margin:0; padding:0}
+
+/* Main content and sidebar layout */
+#contentwrapper {margin-top:30px; width:100%; clear:both; background:url(images/globebottom.gif) bottom left no-repeat}
+#contentwrapper h2 {margin:0 0 10px 0; color:#555; border-bottom:2px solid #abb}
+#contentwrapper h2 a {color:#555; font-weight:normal}
+#contentwrapper h2 a:hover {color:#269; text-decoration:none; background:none}
+#contentwrapper p {margin:0 0.5em 1.2em 0.5em}
+#content {width:68%; float:left; line-height:1.4em}
+
+/*#sidebar {margin-left:70%; margin-top:-15px; line-height:1.4em}*/
+#sidebar{float:right;width:30%}
+#sidebar h2 {margin:0 0 8px 0; padding:0; font-size:1.6em}
+
+#sidebar-left {clear:left;float:left; width:49%; padding:0}
+#sidebar-right {clear:right;float:right;padding:0;width:49%}
+.clear {clear:both}
+
+/* Additional classes */
+.node {margin:0 0 20px 0; border:2px solid #fff; background:#e6e6e6 url(images/entrybg.png) repeat-x; color:#333; padding:10px 10px 0 10px}
+.node a:hover, .intro a:hover {text-decoration:none; padding-bottom:2px; background:url(images/flash2.gif) bottom left repeat-x}
+.right{float:right}
+.left{float:left}
+.node img {margin:5px; float:left; padding:3px; border:1px solid #fff; background-color:#ddd; color:#333}
+img.animate {padding:3px; margin:0 2px 2px 0; border:1px solid #fff; background-color:#ddd; color: #555}
+img.animate:hover {background: url(images/flash.gif)}
+
+#sidebar ul li {list-style-image: none;list-style:none; margin:0;padding:0}
+#sidebar a {color:#269; background:url(images/linkarrow.gif) left no-repeat; /*display:block; */margin:4px 0 0 0; padding:0 1em}
+#sidebar a:hover {color:#48b; background:url(images/blinkarrow.gif) left no-repeat;text-decoration:none}
+
+.node .meta {clear:both; border-top: 2px solid #ccc; padding: 5px 1px 0 0; margin:10px 0 0 0; text-align:right; font-size:1em; color: #567}

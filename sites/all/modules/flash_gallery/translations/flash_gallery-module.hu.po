@@ -1,0 +1,245 @@
+# translation of flash_gallery-module.po to Hungarian
+# $Id: flash_gallery-module.hu.po,v 1.1.2.1 2009/08/19 01:50:56 danieltome Exp $
+#
+# Hungarian translation of Drupal (modules/forum/forum.module)
+# Copyright Drupal.hu Fordítói Csapat <forditas [at] drupal.hu>
+# Generated from file: flash_gallery.module,v 1.1.2.2.2.3 2007/04/12 09:53:40 sime
+#
+# Domokos Endre János <domokos.endrejanos@chello.hu>, 2007.
+# FEHÉR János <feher.janos _at- mindworks.hu>, 2004-2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: flash_gallery-module\n"
+"POT-Creation-Date: 2007-01-10 22:16+0100\n"
+"PO-Revision-Date: 2007-05-18 21:45+0200\n"
+"Last-Translator: FEHÉR János <feher.janos _at- mindworks.hu>\n"
+"Language-Team: Hungarian <Drupal.hu Fordítási Csapat <forditas [at] drupal.hu>>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: modules/flash_gallery/flash_gallery.info:0;2
+#: modules/flash_gallery/flash_gallery.module:0
+msgid "Flash Gallery"
+msgstr "Flash galéria"
+
+#: modules/flash_gallery/flash_gallery.info:3
+msgid "Provide a flash version of the image gallery using 3rd party Simpleviewer tool."
+msgstr "Gondoskodik a képgaléria flash verziójáról, a Simpleviewer eszközkészlet segítségével."
+
+#: modules/flash_gallery/flash_gallery.module:9
+msgid "Allows displaying image galleries with Flash animation"
+msgstr "Lehetővé teszi a képgalériák Flash animációval történő megjelenítését."
+
+#: modules/flash_gallery/flash_gallery.module:39
+msgid "Flash Galleries"
+msgstr "Flash galériák"
+
+#: modules/flash_gallery/flash_gallery.module:42
+msgid "administer flash gallery"
+msgstr "a flash galériák adminisztrálása"
+
+#: modules/flash_gallery/flash_gallery.module:66
+msgid "Image galleries"
+msgstr "Galériák"
+
+#: modules/flash_gallery/flash_gallery.module:75
+msgid "Both image module and image_gallery module should be enabled to use flash galleries."
+msgstr "A flash galéria használatához a kép modul valamint a kép galéria modul bekapcsolása is  szükséges."
+
+#: modules/flash_gallery/flash_gallery.module:95;125
+msgid "There is 1 image in this gallery"
+msgid_plural "There are @count images in this gallery"
+msgstr[0] "Jelenleg 1 kép van ebben a galériában"
+msgstr[1] "Jelenleg @count kép van ebben a galériában."
+
+#: modules/flash_gallery/flash_gallery.module:97
+msgid "Last updated: %date"
+msgstr "Utolsó módosítás: %date"
+
+#: modules/flash_gallery/flash_gallery.module:106
+msgid "<div id=\"flashcontent\">Macromedia Flash is required. <a href=\"http://www.macromedia.com/go/getflashplayer/\">Download Macromedia Flash.</a></div>"
+msgstr "<div id=\"flashcontent\">A lejátszáshoz Macromedia Flash Player-re van szükség. A <a href=\"http://www.macromedia.com/go/getflashplayer/\">Macromedia Flash Player letöltése.</a></div>"
+
+#: modules/flash_gallery/flash_gallery.module:146
+msgid "download"
+msgstr "letöltés"
+
+#: modules/flash_gallery/flash_gallery.module:187
+msgid "dimensions"
+msgstr "méretek"
+
+#: modules/flash_gallery/flash_gallery.module:190
+msgid "All dimensions should be given in pixels."
+msgstr "Minden méretet képpontban kell megadni."
+
+#: modules/flash_gallery/flash_gallery.module:197
+msgid "width of flash animation"
+msgstr "a flash animáció szélessége"
+
+#: modules/flash_gallery/flash_gallery.module:205
+msgid "height of flash animation"
+msgstr "a flash animáció magassága"
+
+#: modules/flash_gallery/flash_gallery.module:213
+msgid "width of your largest image in pixels"
+msgstr "a legnagyobb kép szélessége (képpontban)"
+
+#: modules/flash_gallery/flash_gallery.module:215;224
+msgid "Used to determine the best layout for your gallery."
+msgstr "Itt határozható meg a legjobb elrendezés a galériához."
+
+#: modules/flash_gallery/flash_gallery.module:222
+msgid "height of your largest image in pixels"
+msgstr "a legnagyobb kép magassága (képpontban)"
+
+#: modules/flash_gallery/flash_gallery.module:231
+msgid "width of image frame in pixels"
+msgstr "a képkeret szélessége (képpont)"
+
+#: modules/flash_gallery/flash_gallery.module:239
+msgid "stage padding"
+msgstr "térköz"
+
+#: modules/flash_gallery/flash_gallery.module:240
+msgid "Distance between image and thumbnails and around gallery edge in pixels."
+msgstr "Távolság a kép és a bélyegkép valamint a galériát övező keret közt."
+
+#: modules/flash_gallery/flash_gallery.module:245
+msgid "colors"
+msgstr "színek"
+
+#: modules/flash_gallery/flash_gallery.module:248
+msgid "All colors should be given as hexadecimal rgb-values."
+msgstr "Minden színt hexadecimális kódban kell megadni (mint html-ben)."
+
+#: modules/flash_gallery/flash_gallery.module:255
+msgid "background color"
+msgstr "háttérszín"
+
+#: modules/flash_gallery/flash_gallery.module:256
+msgid "Background color of flash animation."
+msgstr "A flash animáció hátterének színe."
+
+#: modules/flash_gallery/flash_gallery.module:262
+msgid "tranparency"
+msgstr "áttetszőség"
+
+#: modules/flash_gallery/flash_gallery.module:263
+msgid "Checking this box will make your background transparent. This setting overrides the background color setting."
+msgstr "E kockát megjelölve a háttér áttetszővé tehető. Ez a beállítás felülírja a háttérszín beállításokat."
+
+#: modules/flash_gallery/flash_gallery.module:270
+msgid "flash loader color"
+msgstr "flash töltő színe"
+
+#: modules/flash_gallery/flash_gallery.module:271
+msgid "Color of part of flash animation that says \"loading xml data\", while loading your gallery."
+msgstr "A flash animáció azon alkatrészének színe, amely az „xml adat letöltése” üzenetet írja ki, a galéria betöltése közben."
+
+#: modules/flash_gallery/flash_gallery.module:279
+msgid "text color"
+msgstr "szövegszín"
+
+#: modules/flash_gallery/flash_gallery.module:280
+msgid "Color of title and caption text."
+msgstr "A címek és képaláírások színe."
+
+#: modules/flash_gallery/flash_gallery.module:288
+msgid "frame color"
+msgstr "keretszín"
+
+#: modules/flash_gallery/flash_gallery.module:289
+msgid "Color of image frame, navigation buttons (on top and hover buttons) and thumbnail frame."
+msgstr "A képkeretek, navigációs gombok (felengedett és lenyomott gombok) és a bélyegképek keretének színe."
+
+#: modules/flash_gallery/flash_gallery.module:294
+msgid "navigation"
+msgstr "navigáció"
+
+#: modules/flash_gallery/flash_gallery.module:299
+msgid "top"
+msgstr "fel"
+
+#: modules/flash_gallery/flash_gallery.module:299
+msgid "bottom"
+msgstr "le"
+
+#: modules/flash_gallery/flash_gallery.module:299
+msgid "left"
+msgstr "bal"
+
+#: modules/flash_gallery/flash_gallery.module:299
+msgid "right"
+msgstr "jobb"
+
+#: modules/flash_gallery/flash_gallery.module:304
+msgid "navigation position"
+msgstr "navigáció pozició"
+
+#: modules/flash_gallery/flash_gallery.module:305
+msgid "Position of thumbnails relative to image."
+msgstr "A bélyegképek relatív helyzete a nagyképekhez képest."
+
+#: modules/flash_gallery/flash_gallery.module:311
+msgid "thumbnail columns"
+msgstr "bélyegkép oszlopok"
+
+#: modules/flash_gallery/flash_gallery.module:312
+msgid "Number of thumbnail columns. To disable thumbnails completely set this value to 0"
+msgstr "A bélyegképek oszlopainak száma. A bélyegképek tiltásához ezt az értéket 0-ra kell állítani."
+
+#: modules/flash_gallery/flash_gallery.module:318
+msgid "thumbnail rows"
+msgstr "bélyegkép sorok"
+
+#: modules/flash_gallery/flash_gallery.module:319
+msgid "Number of thumbnail rows. To disable thumbnails completely set this value to 0."
+msgstr "A bélyegképek sorainak száma. A bélyegképek tiltásához ezt az értéket 0-ra kell állítani."
+
+#: modules/flash_gallery/flash_gallery.module:323
+msgid "miscellaneous"
+msgstr "egyéb"
+
+#: modules/flash_gallery/flash_gallery.module:330
+msgid "display title"
+msgstr "cím megjelenítése"
+
+#: modules/flash_gallery/flash_gallery.module:331
+msgid "Whether to display the node title in the flash animation."
+msgstr "Megjelenjen-e a tartalom címe a flash animációban."
+
+#: modules/flash_gallery/flash_gallery.module:336
+msgid "display album name"
+msgstr "galéria nevének megjelenítése"
+
+#: modules/flash_gallery/flash_gallery.module:337
+msgid "Whether to display the album name in the flash animation."
+msgstr "Megjelenjen-e a galéria neve a flash animációban."
+
+#: modules/flash_gallery/flash_gallery.module:342
+msgid "display download link"
+msgstr "letöltés link megjelenítése"
+
+#: modules/flash_gallery/flash_gallery.module:343
+msgid "Apart from the node title, also display a clickable link to allow downloading the originally uploaded image."
+msgstr "A tartalom címe mellett ugyanúgy megjeleníthető egy klikkelhető link is, lehetővé téve az eredetileg feltöltött képek megtekintését."
+
+#: modules/flash_gallery/flash_gallery.module:348
+msgid "build thumbnail library"
+msgstr "bélyegkép könyvtár építése"
+
+#: modules/flash_gallery/flash_gallery.module:349
+msgid "Normally, you should do this only once, after installing the module. This builds a library of thumbnails based on pre-existing images which reside inside pre-exising galleries. You do not have to repeat this later on: images that are created after installing this module are handled automatically. "
+msgstr "Normál esetben ezt csak egyszer, a modul telepítésekor kell megtenni, tehát nem kell megismételni később. A képek létrejönnek a telepítés után, a modul automatikusan kezeli a bélyegképeket."
+
+#: modules/flash_gallery/flash_gallery.module:377
+msgid "Not all thumbnails were successfully created"
+msgstr "Nem minden bélyegképet sikerült létrehozni."
+
+#: modules/flash_gallery/flash_gallery.module:380
+msgid "Thumbnail library was successfully created"
+msgstr "A bélyegkép könyvtár létre lett hozva."
+

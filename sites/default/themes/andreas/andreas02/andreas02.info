@@ -1,0 +1,26 @@
+name = Andreas02
+description = This is a port of Andreas02 v3.0 (Apr 24, 2008) by Andreas Viklund (www.andreasviklund.com).
+screenshot = screenshot.png
+version = VERSION
+core = 6.x
+engine = phptemplate
+regions[sidebar] = Sidebar
+regions[main_block] = Main Block
+regions[content] = Content
+regions[header] = Header
+regions[footer] = footer
+features[] = name
+features[] = logo
+features[] = slogan
+features[] = primary_links    
+features[] = secondary_links
+features[] = mission
+stylesheets[all][] = andreas.css
+base theme = andreas
+
+; Information added by drupal.org packaging script on January 1, 1970 - 00:00
+version = "6.x-1.5"
+core = "6.x"
+project = "andreas"
+datestamp = "1297015631"
+

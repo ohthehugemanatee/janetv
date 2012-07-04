@@ -1,0 +1,138 @@
+#comments {
+	padding: 11px 2px 2px 2px;
+	margin: 1px;
+	border-bottom: 1px solid #B8B8B8;
+}
+
+#comments ol {
+	margin: 6px 2px 10px 2px;
+	padding: 0;
+	border-top: 1px solid #B8B8B8;
+	list-style: none;
+	border-bottom: 1px solid #B8B8B8;
+}
+
+#comments h3 {
+	margin: 14px 0;
+	font-size: 15px;
+}
+
+#comments ol li {
+	padding: 11px;
+	list-style: none;
+	margin: 6px 0;
+}
+
+#comments ol li.alt {
+	background-color: #EEEEEE !important;
+}
+
+#comments ol li.authorcomment {
+	background-color: #EEEEEE !important;
+}
+
+.commententry p.moderate {
+	background-color: #B3FFCC !important;
+	font-weight: bold;
+	margin: 3px;
+}
+
+#comments .comment {
+	border-top: 2px solid #B8B8B8;
+	border-bottom: 2px solid #B8B8B8;
+	border-left: 1px solid #B8B8B8;
+	border-right: 1px solid #B8B8B8;
+}
+
+.commentmeta {
+	font-size: 11px;
+}
+
+.commentmeta .gravatar {
+	
+}
+
+.commentmeta .gravatar img {
+	float: left;
+	margin: 0 12px 0 0;
+	border: 1px solid #EEEEEE;
+}
+
+.commentmeta .commentauthor {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.commententry p {
+	margin-bottom: 5px;
+}
+
+#mission {
+	border: 1px solid #B8B8B8;
+	padding: 6px 6px 6px 6px;
+	margin-bottom: 12px;
+}
+
+.breadcrumb {
+	margin: 7px;
+}
+
+.messages.status {
+	margin: 14px;
+	font-weight: bold;
+}
+
+table td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 8px;
+	padding-left: 4px;
+	color: #000000 !important;
+}
+
+.tags {
+	padding: 5px 5px 5px 5px;
+	margin: 14px;
+}
+
+.theme-info h2 {
+	font-size: 14px;
+	color: #000000;
+}
+
+table td a{
+	color: #000000 !important;
+}
+
+table td a:hover{
+	color: #000000 !important;
+}
+
+table td a:visited{
+	color: #000000 !important;
+}
+
+.tabs li a.active{
+	color: #000000 !important;
+}
+
+.tabs li a{
+	color: #000000 !important;
+}
+
+.messages.error a {
+	color: #0000FF !important;
+}
+
+.messages.error a:hover {
+	color: #0000FF !important;
+}
+
+.messages.warning a {
+	color: #0000FF !important;
+}
+
+.messages.warning a:hover {
+	color: #0000FF !important;
+}
+

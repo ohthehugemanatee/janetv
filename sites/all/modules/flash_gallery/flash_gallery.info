@@ -1,0 +1,20 @@
+; $Id: flash_gallery.info,v 1.1.4.3 2009/08/19 01:50:56 danieltome Exp $
+name =  Flash Gallery
+description = Provide a flash version of the image gallery using 3rd party Simpleviewer tool.
+package = Media
+dependencies[] = image
+dependencies[] = image_gallery
+
+; Information added by drupal.org packaging script on 2007-08-06
+version = "6.x-1.x-dev"
+project = "flash_gallery"
+datestamp = "1186401826"
+
+
+core = 6.x
+; Information added by drupal.org packaging script on 2009-08-19
+version = "6.x-1.0"
+core = "6.x"
+project = "flash_gallery"
+datestamp = "1250648146"
+

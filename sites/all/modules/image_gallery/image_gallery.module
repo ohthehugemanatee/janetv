@@ -1,0 +1,3 @@
+<?php
+
+include_once('image_gallery.features.inc');
