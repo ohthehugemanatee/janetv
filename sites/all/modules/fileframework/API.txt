@@ -1,2 +1,0 @@
-// $Id: API.txt,v 1.2 2008/05/27 21:57:25 miglius Exp $
-
