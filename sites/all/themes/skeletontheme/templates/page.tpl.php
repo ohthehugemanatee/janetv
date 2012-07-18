@@ -161,9 +161,11 @@
             
             <div class="clear"></div>
             
+            <!-- Credits div
             <div id="credits">2012 Your Site - This is a Free Drupal Theme<br/>
             Ported to Drupal for the Open Source Community by <a href="http://www.drupalizing.com" target="_blank">Drupalizing</a>, a Project of <a href="http://www.morethanthemes.com" target="_blank">More than (just) Themes</a>. Original design by <a href="http://www.simplethemes.com/" target="_blank">Simple Themes</a>.
             </div>
+            -->
         
         </div>
     </div>
