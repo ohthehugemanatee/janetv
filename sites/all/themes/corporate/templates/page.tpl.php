@@ -62,7 +62,6 @@
  * @see template_preprocess()
  * @see template_preprocess_page()
  * @see template_process()
- 
  */
 ?>
 <div id="wrapper">
@@ -81,9 +80,9 @@
         <?php if (theme_get_setting('social_links', 'corporate')): ?>
           <div class="social-icons">
            <ul>
-            <li><a href="<?php print $front_page; ?>/rss.xml"><img src="<?php print base_path() . drupal_get_path('theme', 'corporate') . '/images/rss.png'; ?>" alt="RSS Feed"/></a></li>
-            <li><a href="http://www.facebook.com/<?php echo theme_get_setting('facebook_username', 'corporate'); ?>" target="_blank" rel="me"><img src="<?php print base_path() . drupal_get_path('theme', 'corporate') . '/images/facebook.png'; ?>" alt="Facebook"/></a></li>
-            <li><a href="http://www.twitter.com/<?php echo theme_get_setting('twitter_username', 'corporate'); ?>" target="_blank" rel="me"><img src="<?php print base_path() . drupal_get_path('theme', 'corporate') . '/images/twitter.png'; ?>" alt="Twitter"/></a></li>
+            <li><a href="<?php print $front_page; ?>rss.xml"><img src="<?php print base_path() . check_plain(drupal_get_path('theme', 'corporate')) . '/images/rss.png'; ?>" alt="RSS Feed"/></a></li>
+            <li><a href="http://www.facebook.com/<?php echo check_plain(theme_get_setting('facebook_username', 'corporate')); ?>" target="_blank" rel="me"><img src="<?php print base_path() . drupal_get_path('theme', 'corporate') . '/images/facebook.png'; ?>" alt="Facebook"/></a></li>
+            <li><a href="http://www.twitter.com/<?php echo check_plain(theme_get_setting('twitter_username', 'corporate')); ?>" target="_blank" rel="me"><img src="<?php print base_path() . drupal_get_path('theme', 'corporate') . '/images/twitter.png'; ?>" alt="Twitter"/></a></li>
            </ul>
           </div>
         <?php endif; ?>
@@ -92,7 +91,11 @@
     <div id="menu-container">
     <div id="main-menu" class="menu-menu-container">
         <?php 
-        $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu')); 
+        if (module_exists('i18n')) {
+          $main_menu_tree = i18n_menu_translated_tree(variable_get('menu_main_links_source', 'main-menu'));
+        } else {
+          $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
+        }
         print drupal_render($main_menu_tree);
         ?>
       </div>
@@ -233,7 +236,7 @@
         <div class="copyright"><?php print t('Copyright'); ?> &copy; <?php echo date("Y"); ?>, <?php print $site_name; ?>.</div>
       <?php endif; ?>
       <?php if (theme_get_setting('footer_credits', 'corporate')): ?>
-        <div class="credit"><?php print t('Thanks to'); ?> <a href="http://www.sidepon.com" target="_blank">Sidepon.com</a> | <?php print t('Developed by'); ?> <a href="http://www.devsaran.com" target="_blank">Devsaran</a>.</div>
+        <div class="credit"><?php print t('Designed by'); ?> <a href="http://www.devsaran.com">Devsaran</a>.</div>
       <?php endif; ?>
     </div>
    <?php endif; ?>

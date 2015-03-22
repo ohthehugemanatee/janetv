@@ -268,6 +268,7 @@ h6 {
 	margin:0px auto;
 	position:relative;
 	height:100%;
+  z-index:400;
 }
 
 .logo{
@@ -416,7 +417,7 @@ h6 {
 	}
 
 #main-menu li ul {
-	z-index: 9999;
+	z-index: 400;
 	position: absolute;
 	left: -999em;
 	height: auto;
